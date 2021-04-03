@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text">CODING FIRE</div>
+        <!-- SVG -->
+        <svg>
+            <filter id="wavy">
+                <feTurBulence x="0" y="0" baseFrequency="0.01" numOctaves="5" seed="2">
+                    <animate attriButeName="baseFrequency" dur="60s" values="0.001;0.02;0.002"></animate>
+                </feTurBulence>
+
+                <feDisplacementMap scale="30" in="SourceGraphic"></feDisplacementMap>
+            </filter>
+        </svg>
+    </div>
+</body>
+</html>

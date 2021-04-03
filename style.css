@@ -1,0 +1,26 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monument';
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text
+{
+    position: absolute;
+    color: #fff;
+    font-size: 7rem;
+    filter: url('#wavy');
+}
